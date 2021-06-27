@@ -9,7 +9,7 @@ Enter... the StimulusReflex Sandbox.
 
 Sandbox apps are based on [sr mini](https://github.com/hopsoft/sr_mini), the single-file StimulusReflex-powered Rails app template. We gently oil and massage the sr_mini until it runs happily inside of a [Glitch](https://glitch.com) container. Glitch is similar to Codepen (or one of the many competitors) except that it also allows you to run a server-side VM, without any of the standard security concerns.
 
-People are free to try the demo, inspect the code behind it and "remix" their own projects based on it.
+People are free to try the demo, inspect the code behind it and "remix" their own projects based on it. There is a [summary post](https://dev.to/julianrubisch/a-stimulusreflex-sandbox-on-glitch-i63) explaining how it's all set up on Dev.to.
 
 You can see some great examples of SR Sandbox apps on the [StimulusReflex Patterns](https://www.stimulusreflexpatterns.com/patterns/) site. 
 
