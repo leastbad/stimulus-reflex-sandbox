@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>StimulusReflex Mini Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <%= javascript_include_tag "/index.js", type: "module" %>
+  </head>
+  <body>
+    <div class="container my-5">
+      <h1>StimulusReflex <small class="text-muted fw-lighter fs-5">Mini Demo <%= "🤯 It's working!!!" if @count > 0 %></small></h1>
+      <%= tag.span "counter: #{@count}", class: class_names("lead badge rounded-pill", "bg-secondary": @count.zero?, "bg-danger": !@count.zero?) %>
+      <div class="button-group my-3">
+        <%= tag.a "Increment Counter", class: "btn btn-primary", data: { reflex: "click->counter#increment", count: @count } %>
+        <%= tag.a "Reset", class: "btn btn-link", data: { reflex: "click->counter#reset" } %>
+      </div>
+      <%= tag.span "You've incremented the counter #{@count} times.", class: "lead" if @count > 0 %>
+    </div>
+  </body>
+</html>

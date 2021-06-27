@@ -4,6 +4,7 @@
 module.exports = {
   exclude: [
     '**/*.rb',
+    '**/*.html.erb',
     '**/node_modules/**/*',
     '/app/Gemfile',
     '/app/bin/*',
@@ -14,9 +15,9 @@ module.exports = {
     '/app/README.md',
     '/app/package.json',
     '/app/package-lock.json',
-    '/app/snowpack.config.js',
+    '/app/snowpack.config.js'
   ],
   buildOptions: {
     out: 'public'
   }
-};
+}
