@@ -1,0 +1,11 @@
+{
+  "install": {
+    "include": ["^Gemfile", "^package.json", "^\\.env$"],
+    "exclude": []
+  },
+  "restart": {
+    "include": ["\\.rb$", "\\.js$"],
+    "exclude": ["^public/"]
+  },
+  "throttle": 10000
+}

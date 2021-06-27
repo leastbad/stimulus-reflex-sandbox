@@ -1,0 +1,17 @@
+.bash_profile
+.data
+.glitch-assets
+.irb_history
+.rbenv
+.ruby-version
+.rubocop-https*
+.rediscli-history
+.node-gyp
+bin
+
+node_modules
+public
+redis-6.2.2
+
+Gemfile.lock
+tmp/
